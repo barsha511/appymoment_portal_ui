@@ -1,0 +1,111 @@
+/* Footer.module.css */
+
+.footer_container {
+    background-color: rgb(215, 205, 205);
+    padding: 20px;
+    position: relative; /* Ensure footer stays in place */
+}
+
+.footer_contain {
+    display: flex;
+    justify-content: space-between; /* Space out the main sections */
+    flex-wrap: wrap;
+    
+}
+
+.services, .footer_contact, .footer_icons_container {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.services li {
+    margin-bottom: 5px;
+}
+
+.footer_icons_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Margin between icons and address */
+   
+    
+}
+
+.icon_footer {
+    font-size: 2em;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    
+}
+
+.icon_footer:hover {
+    color: #f39c12;
+}
+
+.address {
+    text-align: center;
+    
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footer_contact input {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer_contact button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f39c12;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer_contact button:hover {
+    background-color: #e67e22;
+}
+
+.tagh5_footer {
+    margin-bottom: 15px;
+}
+
+.tagh5_footer2 {
+    margin-bottom: 15px;
+}

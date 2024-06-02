@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
-                    <img src="src/assets/puzzle.png" alt="Logo" />
+                    <img className='imglogo'src="src/assets/puzzle.png" alt="Logo" />
                 </Link>
                 <ul>
                 <li className="dropdown">
@@ -35,7 +35,7 @@ const Navbar = () => {
                         <Link to="/contact">Contact us</Link>
                     </li>
                 </ul>
-                <div className='btn1'><button className='btn'>Book your event</button></div>
+                <div className='btn1-navbar'><button id='btn-navbar'>Book your event</button></div>
 
                 <div className="navbar-icon">
                     <CgProfile />

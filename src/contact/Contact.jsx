@@ -1,9 +1,11 @@
-import './Contact.css';
-const Contact = ()=>{
+import React from 'react';
+import styles from './Contact.module.css'; // Import the CSS module
+
+const Contact = () => {
     return (
         <>
-            <h1>Contact Us</h1>
-            <div className='contact'>
+            <h1 className={styles.tagh1}>Contact Us</h1>
+            <div className={styles.contact}>
                 <form>
                     <label htmlFor="name">Name</label>
                     <input type="text"
@@ -22,7 +24,7 @@ const Contact = ()=>{
                     <label htmlFor="message">Message</label>
                     <textarea name="msg" id="msg" cols="30" rows="10"/>
                 </form>
-                <button className='btn7' type='submit'>Submit</button>
+                <button id={styles.btn_contact} type='submit'>Submit</button>
             </div>
         </>
     )

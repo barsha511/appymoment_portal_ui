@@ -16,7 +16,7 @@ const Login = () => {
             <label htmlFor="email">Email:</label>
                 <input
                     type="email"
-                    id="email"
+                    id="email-login"
                     name="email"
                     placeholder="Enter your email"
                     required
@@ -24,25 +24,25 @@ const Login = () => {
                 <label htmlFor="password">Password:</label>
                 <input
                     type="password"
-                    id="password"
+                    id="password-login"
                     name="password"
                     placeholder="Enter your password" 
                     required
                 />
                 
-                <button className='btn1' type="submit">Login</button>
+                <button id='bt1' type="submit">Login</button>
             </form>
-            <div className="line-with-text">
-                <div className="line"></div>
+            <div className="line-with-text-login">
+                <div className="line-login"></div>
                 <span>OR</span>
-                <div className="line"></div>
+                <div className="line-login"></div>
             </div>
             <div className="icon-container">
                 <FcGoogle className="icon" />
                 <FaFacebook className="icon" />
                 
             </div>
-            <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
+            <p className='p-login'>Don't have an account? <Link to="/signup">Sign Up</Link></p>
         </div>
         </div>
        

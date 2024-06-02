@@ -3,19 +3,18 @@ body {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 100vh; 
+ 
   margin: 0; 
   
 }
-
 .body {
-  display: flex;
   
+  display: flex;
   justify-content: flex-end; /* Align to the left */
   margin-left: 90px;
   align-items: center; /* Center vertically */
-  height: 100vh; /* Full height to center the container */
-  padding-left: 50px; /* Add some left padding to space from the edge */
+  height: 100vh; 
+  padding-left: 50px; 
 }
 
 .login-container {
@@ -47,33 +46,21 @@ body {
   border-radius: 5px;
   box-sizing: border-box;
 }
-
-
-
-.login-container button:hover {
-  background-color: #45a049; /* Darker green on hover */
-}
-
 form {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
 }
 
-label {
+#email-login {
   text-align: left;
   margin-bottom: 5px;
 }
-
-input {
-  margin-bottom: 10px;
-  padding: 8px;
-  font-size: 16px;
-  width: 100%;
-  box-sizing: border-box;
+#password-login {
+  text-align: left;
+  margin-bottom: 5px;
 }
-
-button {
+#bt1 {
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
@@ -86,31 +73,21 @@ button {
   border-color: aliceblue;
   border-radius: 10px;
 }
-.line-with-text {
+.line-with-text-login {
   display: flex;
   align-items: center;
   margin: 20px 0;
 }
 
-.line-with-text .line {
+.line-with-text-login .line-login {
   flex: 1;
   height: 1px;
   background-color: #000;
   font-weight: 100;
 }
 
-.line-with-text span {
+.line-with-text-login span {
   margin: 0 10px;
-}
-
-
-p {
-  margin-top: 20px;
-}
-
-p a {
-  color: blue;
-  text-decoration: none;
 }
 .icon-container {
   display: flex;
@@ -121,4 +98,11 @@ p a {
 .icon {
   font-size: 24px;
   margin: 0 10px;
+}
+.p-login{
+  text-align: center;
+}
+.p-login a {
+  color: rgb(255, 0, 43);
+  text-decoration: none;
 }
